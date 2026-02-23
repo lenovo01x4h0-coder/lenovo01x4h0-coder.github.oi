@@ -1,0 +1,585 @@
+﻿<!DOCTYPE html>
+<html lang="es"><!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identidad Panameña: Un Crisol de Culturas</title>
+    <style>
+        :root {
+            --panama-red: #DA291C;
+            --panama-blue: #005293;
+            --panama-white: #FFFFFF;
+            --bg-color: #f4f7f6;
+            --text-color: #333333;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        /* Header / Hero Section */
+        header {
+            background: linear-gradient(135deg, var(--panama-blue) 50%, var(--panama-red) 50%);
+            color: var(--panama-white);
+            padding: 60px 20px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        header p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto;
+            font-weight: 300;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        /* Intro Section */
+        .intro {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        /* Grid Layout */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        /* Cards */
+        .card {
+            background: var(--panama-white);
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+            border-top: 5px solid var(--panama-blue);
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card:nth-child(even) {
+            border-top-color: var(--panama-red);
+        }
+
+        .card h2 {
+            color: var(--panama-blue);
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+
+        .card:nth-child(even) h2 {
+            color: var(--panama-red);
+        }
+
+        .card ul {
+            list-style: none;
+        }
+
+        .card li {
+            margin-bottom: 15px;
+            position: relative;
+            padding-left: 20px;
+        }
+
+        .card li::before {
+            content: "•";
+            color: var(--panama-blue);
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+
+        .card:nth-child(even) li::before {
+            color: var(--panama-red);
+        }
+
+        .card strong {
+            display: block;
+            margin-bottom: 5px;
+            color: #222;
+        }
+
+        /* Challenges Section */
+        .challenges {
+            background-color: #fff8e1;
+            border-left: 6px solid #ffc107;
+            padding: 30px;
+            margin-top: 50px;
+            border-radius: 5px;
+        }
+
+        .challenges h3 {
+            color: #d35400;
+            margin-bottom: 15px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 40px;
+            background-color: #2c3e50;
+            color: white;
+            margin-top: 60px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: var(--panama-white);
+            color: var(--panama-blue);
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #e0e0e0;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Identidad Panameña</h1>
+        <p>¿Qué elementos culturales y tradiciones definen hoy la identidad panameña?</p>
+    </header>
+
+    <div class="container">
+        
+        <section class="intro">
+            <p>La identidad panameña actual se define a través de una compleja amalgama de tradiciones folclóricas, hitos históricos de lucha por la soberanía y una rica diversidad étnica descrita frecuentemente como un <strong>"crisol de razas"</strong>.</p>
+        </section>
+
+        <div class="grid">
+            <!-- Card 1: Folklore -->
+            <article class="card">
+                <h2>🎭 Manifestaciones Folclóricas</h2>
+                <ul>
+                    <li>
+                        <strong>La Pollera:</strong>
+                        Imagen cultural de mayor importancia. Nacida en la época colonial, su confección artesanal puede tomar hasta dos años.
+                    </li>
+                    <li>
+                        <strong>El Sombrero Pintao:</strong>
+                        Uno de los elementos más representativos de la cultura nacional y símbolo de elegancia.
+                    </li>
+                    <li>
+                        <strong>Música y Expresiones Orales:</strong>
+                        El tamborito, la saloma y diversas expresiones artísticas son pilares que sostienen la conciencia patria.
+                    </li>
+                    <li>
+                        <strong>Personalidad:</strong>
+                        Se destaca un carácter alegre y resiliente, capaz de mantener el ánimo en momentos de crisis.
+                    </li>
+                </ul>
+            </article>
+
+            <!-- Card 2: Símbolos -->
+            <article class="card">
+                <h2>🇵🇦 Símbolos Patrios</h2>
+                <ul>
+                    <li>
+                        <strong>La Bandera:</strong>
+                        Representa el diálogo y la paz entre liberales y conservadores. Su ondear en el Cerro Ancón eleva el espíritu nacional.
+                    </li>
+                    <li>
+                        <strong>El Escudo Nacional:</strong>
+                        Alude al progreso, la abundancia y el Canal de Panamá como punto de confluencia de los mares.
+                    </li>
+                    <li>
+                        <strong>El Águila Harpía:</strong>
+                        Ave nacional y símbolo de poder presente en el escudo, representando la fuerza de la naturaleza.
+                    </li>
+                </ul>
+            </article>
+
+            <!-- Card 3: Historia -->
+            <article class="card">
+                <h2>📜 Memoria Histórica</h2>
+                <ul>
+                    <li>
+                        <strong>9 de enero de 1964:</strong>
+                        Hito fundamental para la soberanía y descolonización. Vinculado a la nacionalización del Canal.
+                    </li>
+                    <li>
+                        <strong>Efemérides Nacionales:</strong>
+                        El 3 de noviembre (Separación de Colombia) y el 28 de noviembre (Independencia de España) son cumbres de la nacionalidad.
+                    </li>
+                    <li>
+                        <strong>Próceres:</strong>
+                        Figuras como <strong>Justo Arosemena</strong> (teórico de la nacionalidad) y <strong>Victoriano Lorenzo</strong> son pilares de la identidad.
+                    </li>
+                </ul>
+            </article>
+
+            <!-- Card 4: Diversidad -->
+            <article class="card">
+                <h2>🌍 Diversidad Étnica</h2>
+                <ul>
+                    <li>
+                        <strong>Pluralidad:</strong>
+                        Identidades de pueblos originarios (lengua y cosmovisión), afrodescendientes y otros grupos.
+                    </li>
+                    <li>
+                        <strong>Presencia Internacional:</strong>
+                        Influencias de comunidades residentes, como la celebración del Año Nuevo Chino, que enriquecen la cultura local.
+                    </li>
+                    <li>
+                        <strong>Gastronomía y Filosofía:</strong>
+                        Una mezcla única de sabores y pensamientos que define al panameño moderno.
+                    </li>
+                </ul>
+            </article>
+        </div>
+
+        <!-- Challenges Section -->
+        <section class="challenges">
+            <h3>⚠️ Retos Actuales y Reflexión</h3>
+            <p>A pesar de esta riqueza, la identidad enfrenta retos actuales como la corrupción, la desigualdad y la influencia de una cultura transnacional que a veces se impone sobre lo autóctono. Por ello, se enfatiza la necesidad de <strong>fortalecer la enseñanza de la historia y el folclore</strong> para preservar este patrimonio intangible.</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>Generado para profundizar en la cultura panameña.</p>
+        <a href="#" class="btn">Solicitar Reporte Histórico</a>
+        <a href="#" class="btn">Ver Infografía de Símbolos</a>
+    </footer>
+
+</body>
+</html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identidad Panameña: Un Crisol de Culturas</title>
+    <style>
+        :root {
+            --panama-red: #DA291C;
+            --panama-blue: #005293;
+            --panama-white: #FFFFFF;
+            --bg-color: #f4f7f6;
+            --text-color: #333333;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        /* Header / Hero Section */
+        header {
+            background: linear-gradient(135deg, var(--panama-blue) 50%, var(--panama-red) 50%);
+            color: var(--panama-white);
+            padding: 60px 20px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        header p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto;
+            font-weight: 300;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        /* Intro Section */
+        .intro {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        /* Grid Layout */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        /* Cards */
+        .card {
+            background: var(--panama-white);
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+            border-top: 5px solid var(--panama-blue);
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card:nth-child(even) {
+            border-top-color: var(--panama-red);
+        }
+
+        .card h2 {
+            color: var(--panama-blue);
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+
+        .card:nth-child(even) h2 {
+            color: var(--panama-red);
+        }
+
+        .card ul {
+            list-style: none;
+        }
+
+        .card li {
+            margin-bottom: 15px;
+            position: relative;
+            padding-left: 20px;
+        }
+
+        .card li::before {
+            content: "•";
+            color: var(--panama-blue);
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+
+        .card:nth-child(even) li::before {
+            color: var(--panama-red);
+        }
+
+        .card strong {
+            display: block;
+            margin-bottom: 5px;
+            color: #222;
+        }
+
+        /* Challenges Section */
+        .challenges {
+            background-color: #fff8e1;
+            border-left: 6px solid #ffc107;
+            padding: 30px;
+            margin-top: 50px;
+            border-radius: 5px;
+        }
+
+        .challenges h3 {
+            color: #d35400;
+            margin-bottom: 15px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 40px;
+            background-color: #2c3e50;
+            color: white;
+            margin-top: 60px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: var(--panama-white);
+            color: var(--panama-blue);
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #e0e0e0;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Identidad Panameña</h1>
+        <p>¿Qué elementos culturales y tradiciones definen hoy la identidad panameña?</p>
+    </header>
+
+    <div class="container">
+        
+        <section class="intro">
+            <p>La identidad panameña actual se define a través de una compleja amalgama de tradiciones folclóricas, hitos históricos de lucha por la soberanía y una rica diversidad étnica descrita frecuentemente como un <strong>"crisol de razas"</strong>.</p>
+        </section>
+
+        <div class="grid">
+            <!-- Card 1: Folklore -->
+            <article class="card">
+                <h2>🎭 Manifestaciones Folclóricas</h2>
+                <ul>
+                    <li>
+                        <strong>La Pollera:</strong>
+                        Imagen cultural de mayor importancia. Nacida en la época colonial, su confección artesanal puede tomar hasta dos años.
+                    </li>
+                    <li>
+                        <strong>El Sombrero Pintao:</strong>
+                        Uno de los elementos más representativos de la cultura nacional y símbolo de elegancia.
+                    </li>
+                    <li>
+                        <strong>Música y Expresiones Orales:</strong>
+                        El tamborito, la saloma y diversas expresiones artísticas son pilares que sostienen la conciencia patria.
+                    </li>
+                    <li>
+                        <strong>Personalidad:</strong>
+                        Se destaca un carácter alegre y resiliente, capaz de mantener el ánimo en momentos de crisis.
+                    </li>
+                </ul>
+            </article>
+
+            <!-- Card 2: Símbolos -->
+            <article class="card">
+                <h2>🇵🇦 Símbolos Patrios</h2>
+                <ul>
+                    <li>
+                        <strong>La Bandera:</strong>
+                        Representa el diálogo y la paz entre liberales y conservadores. Su ondear en el Cerro Ancón eleva el espíritu nacional.
+                    </li>
+                    <li>
+                        <strong>El Escudo Nacional:</strong>
+                        Alude al progreso, la abundancia y el Canal de Panamá como punto de confluencia de los mares.
+                    </li>
+                    <li>
+                        <strong>El Águila Harpía:</strong>
+                        Ave nacional y símbolo de poder presente en el escudo, representando la fuerza de la naturaleza.
+                    </li>
+                </ul>
+            </article>
+
+            <!-- Card 3: Historia -->
+            <article class="card">
+                <h2>📜 Memoria Histórica</h2>
+                <ul>
+                    <li>
+                        <strong>9 de enero de 1964:</strong>
+                        Hito fundamental para la soberanía y descolonización. Vinculado a la nacionalización del Canal.
+                    </li>
+                    <li>
+                        <strong>Efemérides Nacionales:</strong>
+                        El 3 de noviembre (Separación de Colombia) y el 28 de noviembre (Independencia de España) son cumbres de la nacionalidad.
+                    </li>
+                    <li>
+                        <strong>Próceres:</strong>
+                        Figuras como <strong>Justo Arosemena</strong> (teórico de la nacionalidad) y <strong>Victoriano Lorenzo</strong> son pilares de la identidad.
+                    </li>
+                </ul>
+            </article>
+
+            <!-- Card 4: Diversidad -->
+            <article class="card">
+                <h2>🌍 Diversidad Étnica</h2>
+                <ul>
+                    <li>
+                        <strong>Pluralidad:</strong>
+                        Identidades de pueblos originarios (lengua y cosmovisión), afrodescendientes y otros grupos.
+                    </li>
+                    <li>
+                        <strong>Presencia Internacional:</strong>
+                        Influencias de comunidades residentes, como la celebración del Año Nuevo Chino, que enriquecen la cultura local.
+                    </li>
+                    <li>
+                        <strong>Gastronomía y Filosofía:</strong>
+                        Una mezcla única de sabores y pensamientos que define al panameño moderno.
+                    </li>
+                </ul>
+            </article>
+        </div>
+
+        <!-- Challenges Section -->
+        <section class="challenges">
+            <h3>⚠️ Retos Actuales y Reflexión</h3>
+            <p>A pesar de esta riqueza, la identidad enfrenta retos actuales como la corrupción, la desigualdad y la influencia de una cultura transnacional que a veces se impone sobre lo autóctono. Por ello, se enfatiza la necesidad de <strong>fortalecer la enseñanza de la historia y el folclore</strong> para preservar este patrimonio intangible.</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>Generado para profundizar en la cultura panameña.</p>
+        <a href="#" class="btn">Solicitar Reporte Histórico</a>
+        <a href="#" class="btn">Ver Infografía de Símbolos</a>
+    </footer>
+
+</body>
+</html>
